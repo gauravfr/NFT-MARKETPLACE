@@ -1,0 +1,46 @@
+.navbar {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10px;
+    background-color:#03070b ;
+    border-bottom: 5px solid #e1e1e1;
+  }
+
+.leftSection {
+    display: flex;
+    align-items: center;
+    color: #e1e1e1;
+  }
+
+.profileLogo {
+    cursor: pointer;
+    padding: 0px 25px;
+  }
+
+.rightSection {
+    display: flex;
+    align-items: center;
+  }
+
+.connectWalletButton {
+    padding: 20px 16px;
+    margin-right: 20px;
+    font-size: 25px;
+    font-weight: 600;
+    background-color:#007bff ;
+    color:#fff ;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+.brandName{
+    background: var(--text-gradient-bg);
+    background: var(--text-gradient-1);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+    font-size: 50px;
+    padding: 0px 25px;
+  }

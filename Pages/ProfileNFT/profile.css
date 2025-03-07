@@ -1,0 +1,114 @@
+/* components/Profile.css */
+.profile-nft-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.profile-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.profile-header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.profile-header p {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.edit-profile-button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.edit-profile-button:hover {
+    background-color: #0056b3;
+}
+
+.profile-stats {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+}
+
+.profile-stats .stat {
+    text-align: center;
+}
+
+.profile-stats .stat h3 {
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+}
+
+.profile-stats .stat p {
+    font-size: 1rem;
+    color: #666;
+}
+
+.my-collection {
+    margin-top: 20px;
+}
+
+.my-collection h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.collection-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.collection-item {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 15px;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+.collection-item img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.collection-item h3 {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+}
+
+.collection-item p {
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.collection-item button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.collection-item button:hover {
+    background-color: #0056b3;
+}
